@@ -7,39 +7,39 @@ ssh pi@10.0.0.12
 #PW:  
 Plenty_Gorge  
 
-# starts with  
+## starts with  
 sh startup-script.sh  
 
-# startup-script.sh starts:  
-# this replaces RBP script with newer script(s) from a dir on the MDU server  
+## startup-script.sh starts:  
+## this replaces RBP script with newer script(s) from a dir on the MDU server  
 sh script-replacer.sh  
-# this is the main app  
+## this is the main app  
 python3 APP_v2.py  
 
-# APP_v2.py starts:  
-# makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
+## APP_v2.py starts:  
+## makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
 MAC_ADDRESS.sh  
-# same as before  
+## same as before  
 script-replacer.sh  
-# makes log file  
+## makes log file  
 APP_v2_log.csv  
-# uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
+## uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
 UPDATE-CONFIRM.sh  
-# get the set temp and runs PID_SAFE.py  
+## get the set temp and runs PID_SAFE.py  
 PID_SAFE.sh  
-# PID control  
+## PID control  
 PID_SAFE.py  
-# SCP outfiles to remote server  
+## SCP outfiles to remote server  
 SCP.sh  
-# gets PID process ID and kills it  
+## gets PID process ID and kills it  
 KILL_PID.sh  
-# kills python, sets all GPIO off and restarts app  
+## kills python, sets all GPIO off and restarts app  
 RESTART.sh  
-# sets GPIO pins off  
+## sets GPIO pins off  
 blink.py  
-# kills python and sets all GPIO off  
+## kills python and sets all GPIO off  
 KILL_PYTHON.sh  
-# steps through all eight wells and read photodiodes  
+## steps through all eight wells and read photodiodes  
 stepper_SW_colour-sensor_MICROSTEP_CAL.py  
 
 
