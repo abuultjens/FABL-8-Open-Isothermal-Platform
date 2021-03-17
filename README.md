@@ -1,6 +1,10 @@
 # FABL-8-build  
 Details of how to build a FABL-8 isothermal diagnostic unit  
 
+# obtained Raspbery pi OS (32-bit) from:
+https://www.raspberrypi.org/software/
+Released 11-01-21
+
 # log in using home wifi:  
 ssh pi@10.0.0.12  
 
