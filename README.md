@@ -18,6 +18,11 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Simple_block_with_threaded_holes.png)
 
+
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/thermal_breaker.png)
+
+
+
 ## 3D printed parts
 All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
 
