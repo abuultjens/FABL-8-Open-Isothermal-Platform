@@ -41,34 +41,43 @@ script that runs on startup and initiates the app and ....
 * script-replacer.sh  
 this replaces RBP script with newer script(s) from a dir on the MDU server  
 
+* UPDATE-CONFIRM.sh  
+uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
+
 * python3 APP_v2.py  
-this is the main app 
+this is the main app. This script runs:
+MAC_ADDRESS.sh 
+This script makes:
+APP_v2_log.csv 
 
 #### APP_v2.py starts:  
-#### makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
-MAC_ADDRESS.sh  
-#### same as before  
-script-replacer.sh  
-#### makes log file  
-APP_v2_log.csv  
-#### uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
-UPDATE-CONFIRM.sh  
-#### get the set temp and runs PID_SAFE.py  
-PID_SAFE.sh  
-#### PID control  
-PID_SAFE.py  
-#### SCP outfiles to remote server  
-SCP.sh  
-#### gets PID process ID and kills it  
-KILL_PID.sh  
-#### kills python, sets all GPIO off and restarts app  
-RESTART.sh  
-#### sets GPIO pins off  
-blink.py  
-#### kills python and sets all GPIO off  
-KILL_PYTHON.sh  
-#### steps through all eight wells and read photodiodes  
-stepper_SW_colour-sensor_MICROSTEP_CAL.py  
+
+* MAC_ADDRESS.sh  
+makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
+
+* PID_SAFE.sh  
+get the set temp and runs PID_SAFE.py  
+
+* PID_SAFE.py  
+PID control 
+
+* SCP.sh
+SCP outfiles to remote server  
+  
+* KILL_PID.sh  
+gets PID process ID and kills it  
+
+* RESTART.sh  
+kills python, sets all GPIO off and restarts app  
+
+* blink.py  
+sets GPIO pins off  
+
+* KILL_PYTHON.sh  
+kills python and sets all GPIO off  
+
+* stepper_SW_colour-sensor_MICROSTEP_CAL.py  
+steps through all eight wells and read photodiodes  
 
 
 
