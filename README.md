@@ -40,7 +40,7 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 
 # Instrument case
 
-# Block mounting partition
+## Block mounting partition
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Partition.png)  
 
 
