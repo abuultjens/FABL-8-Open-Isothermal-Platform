@@ -74,6 +74,13 @@ stepper_SW_colour-sensor_MICROSTEP_CAL.py
 
 # Instructions of use  
 
+* An Initial warmup period occurs upon powerup to stably raise the block temperature to 65oC. 
+
+* Once at operation temperature a reaction can be run by preparing LAMP reagents and template in an OptiGene strip, cutting off the plastic wings on the terminal ends of the strip, removing the magnetic block lid, inserting the strip and replacing the magnetic lid. 
+
+* The operator then closes the main instrument lid and uses the touchscreen interface to enter well information and initiate the run. During the run a plot of normalised florescence emission is displayed in real-time. 
+
+* At the conclusion of the run the measurements are wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
 
 
 
