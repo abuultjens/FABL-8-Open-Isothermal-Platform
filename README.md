@@ -18,18 +18,21 @@ Details of how to build a FABL-8 isothermal diagnostic unit
 
 # 3D printed parts
 All parts were printed on an Ender3 modified with a BL touch using 1.75 PLA filament.  
-* magnet mount  
+
+## magnet mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Magnet_mount.png)
 
-* fixed photodiode mount  
+## fixed photodiode mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_photodiode_mount.png)  
 
-* fixed LED mount  
+## fixed LED mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_8-LED_mount.png)  
 
-left screen mount  
-right screen mount  
-screen face plate  
+## left screen mount  
+
+## right screen mount  
+
+## screen face plate  
 
 # Instrument case
 
