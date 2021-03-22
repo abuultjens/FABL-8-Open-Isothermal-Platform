@@ -5,6 +5,14 @@ Details of how to build a FABL-8 isothermal diagnostic unit
 https://www.raspberrypi.org/software/
 Released 11-01-21
 
+
+
+![Image description](https://github.com/abuultjens/normalise/blob/master/Screen%20Shot%202020-02-28%20at%202.24.55%20pm.png)
+
+
+
+
+
 # log in using home wifi:  
 ssh pi@10.0.0.12  
 
