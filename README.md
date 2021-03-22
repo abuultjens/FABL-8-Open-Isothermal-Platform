@@ -23,6 +23,7 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 
 ### magnet mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Magnet_mount.png)
+This part
 
 ### fixed photodiode mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_photodiode_mount.png)  
