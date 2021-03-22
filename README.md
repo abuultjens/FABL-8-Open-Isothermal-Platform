@@ -1,5 +1,5 @@
 # FABL-8-build  
-Details of how to build a FABL-8 isothermal diagnostic unit  
+Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device  
 
 # Parts list
 | Part: | Quantity: | Link: |
