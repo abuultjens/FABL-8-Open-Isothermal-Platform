@@ -39,6 +39,8 @@ All parts were printed on an Ender3 modified with a BL touch using 1.75 PLA fila
 
 
 # Instrument case
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Partition.png)  
+
 
 
 
