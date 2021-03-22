@@ -42,7 +42,7 @@ All parts were printed on an Ender3 modified with a BL touch using 1.75 PLA fila
 
 
 
-# Setting up Raspberry pi  
+# Setting up the Raspberry pi  
 Used SDFormatter version 4.0 to perform a quick format of a 16GB microSD card.  
 https://www.sdcard.org/downloads/  
   
@@ -63,8 +63,6 @@ this is the main app. This script runs:
 MAC_ADDRESS.sh 
 This script makes:
 APP_v2_log.csv 
-
-#### APP_v2.py starts:  
 
 * MAC_ADDRESS.sh  
 makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
