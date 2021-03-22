@@ -7,7 +7,7 @@ Released 11-01-21
 
 
 
-![Image description](https://github.com/abuultjens/normalise/blob/master/Screen%20Shot%202020-02-28%20at%202.24.55%20pm.png)
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
 
 
 
