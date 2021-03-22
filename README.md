@@ -1,15 +1,12 @@
 # FABL-8-build  
 Details of how to build a FABL-8 isothermal diagnostic unit  
 
-# obtained Raspbery pi OS (32-bit) from:
-https://www.raspberrypi.org/software/
-Released 11-01-21
+# Parts list
 
-
-
+# Circuit schematic
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
 
-
+# Raspberry pi image
 
 
 
