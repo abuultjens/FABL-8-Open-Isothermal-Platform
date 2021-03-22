@@ -12,12 +12,30 @@ Details of how to build a FABL-8 isothermal diagnostic unit
 # Circuit schematic
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
 
+# CNC aluminum heating block
+
+
+# 3D printed parts
+All parts were printed on an Ender3 modified with a BL touch using 1.75 PLA filament.  
+magnet mount  
+fixed photodiode mount  
+fixed LED mount  
+left screen mount  
+right screen mount  
+screen face plate  
+
+# Instrument case
+
+
+
 # Setting up Raspberry pi  
 Used SDFormatter version 4.0 to perform a quick format of a 16GB microSD card.  
 https://www.sdcard.org/downloads/  
   
 Used Raspberry Pi Imager version 1.3 to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
 https://www.raspberrypi.org/software/  
+  
+# Instructions of use  
   
 
 # log in using home wifi:  
