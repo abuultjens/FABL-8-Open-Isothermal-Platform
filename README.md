@@ -14,6 +14,8 @@ Details of how to build a FABL-8 isothermal diagnostic unit
 
 # CNC aluminum heating block
 
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/profile.png)
+
 
 # 3D printed parts
 All parts were printed on an Ender3 modified with a BL touch using 1.75 PLA filament.  
