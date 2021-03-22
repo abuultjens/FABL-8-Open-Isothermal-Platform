@@ -1,7 +1,9 @@
 # FABL-8-build  
-Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device  
+Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device. The build instructions have been divided into essential and optional sections. The essential section details how to build just the heating, excitation and emission measuring systems as well as a touchscreen interface. The optional section describes a specific instriment casing option, however this can be used as a guide.
 
-# Parts list
+# Essential build
+
+## Parts list
 | Part: | Quantity: | Link: |
 | --------------- | --------------- | --------------- |
 | 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
@@ -9,42 +11,24 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
 
 
-# Circuit schematic
+## Circuit schematic
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
 
-# CNC aluminum heating block
+## CNC aluminum heating block
 
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Simple_block_with_threaded_holes.png)
 
-# 3D printed parts
+## 3D printed parts
 All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
 
-## magnet mount  
+### magnet mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Magnet_mount.png)
 
-## fixed photodiode mount  
+### fixed photodiode mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_photodiode_mount.png)  
 
-## fixed LED mount  
+### fixed LED mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_8-LED_mount.png)  
-
-## left screen mount  
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Left_screen_mount.png)  
-
-## right screen mount  
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Right_Screen_mount.png)  
-
-## screen face plate  
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Screen_face_plate.png)  
-
-
-# Instrument case
-
-## Block mounting partition
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Partition.png)  
-
-
-
 
 # Setting up the Raspberry pi  
 Used SDFormatter version 4.0 to perform a quick format of a 16GB microSD card.  
@@ -96,6 +80,33 @@ kills python and sets all GPIO off
 
 * stepper_SW_colour-sensor_MICROSTEP_CAL.py  
 steps through all eight wells and read photodiodes  
+
+
+
+# Instrument case
+
+## Parts list
+| Part: | Quantity: | Link: |
+| --------------- | --------------- | --------------- |
+| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
+| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
+| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+
+## 3D printed parts
+All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
+
+### left screen mount  
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Left_screen_mount.png)  
+
+### right screen mount  
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Right_Screen_mount.png)  
+
+### screen face plate  
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Screen_face_plate.png)  
+
+## Block mounting partition
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Partition.png)  
+
 
 
 
