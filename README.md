@@ -30,13 +30,15 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 
 ### magnet mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Magnet_mount.png)
-This part
+This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the colsed end of the cavity is facing away from the block.
 
 ### fixed photodiode mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_photodiode_mount.png)  
+This part retains the eight photodiodes and is sandwched between two 2mm thich block lid plates. The emission filter gel is mounted inbetween this part ad the lower block lid plate.
 
 ### fixed LED mount  
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_8-LED_mount.png)  
+This part retains the eight LEDs and clamps the excitation filter gel to the block.
 
 # Setting up the Raspberry pi  
 Used SDFormatter version 4.0 to perform a quick format of a 16GB microSD card.  
