@@ -34,15 +34,15 @@ https://www.sdcard.org/downloads/
   
 Used Raspberry Pi Imager version 1.3 to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
 https://www.raspberrypi.org/software/  
-  
-#### starts with  
-sh startup-script.sh  
+   
+* startup-script.sh  
+script that runs on startup and initiates the app and ....
 
-#### startup-script.sh starts:  
-#### this replaces RBP script with newer script(s) from a dir on the MDU server  
-sh script-replacer.sh  
-#### this is the main app  
-python3 APP_v2.py  
+* script-replacer.sh  
+this replaces RBP script with newer script(s) from a dir on the MDU server  
+
+* python3 APP_v2.py  
+this is the main app 
 
 #### APP_v2.py starts:  
 #### makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
