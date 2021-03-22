@@ -29,10 +29,14 @@ All parts were printed on an Ender3 modified with a BL touch using 1.75 PLA fila
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_8-LED_mount.png)  
 
 ## left screen mount  
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Left_screen_mount.png)  
 
 ## right screen mount  
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Right_Screen_mount.png)  
 
 ## screen face plate  
+![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Screen_face_plate.png)  
+
 
 # Instrument case
 
