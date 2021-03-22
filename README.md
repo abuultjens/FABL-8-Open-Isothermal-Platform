@@ -21,6 +21,8 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/thermal_breaker.png)
 
+## Sheet metal block stands
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/block_stands.png)
 
 
 ## 3D printed parts
