@@ -2,6 +2,12 @@
 Details of how to build a FABL-8 isothermal diagnostic unit  
 
 # Parts list
+| Part: | Quantity: | Link: |
+| --------------- | --------------- | --------------- |
+| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
+| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
+| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+
 
 # Circuit schematic
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
