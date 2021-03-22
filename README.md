@@ -4,8 +4,8 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 # Parts list
 | Part: | Quantity: | Link: |
 | --------------- | --------------- | --------------- |
-| 12-stage Binary Counter CMOS IC 4040 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
+| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
+| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
 
 
