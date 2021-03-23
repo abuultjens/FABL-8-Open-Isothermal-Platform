@@ -14,6 +14,30 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
     - [Circuit schematic](#circuit-schematic)
     - [Setting up the Raspberry pi](#Setting-up-the-Raspberry-pi)
   - [Heating block](#heating-block)
+  - [Heating block stands](#heating-block-stands)
+  - [3D printed parts](#3d-printed-parts)
+    - [Magnet mount](#magnet-mount)
+    - [Fixed photodiode mount](#fixed-photodiode-mount)
+    - [Fixed LED mount ](#fixed-led-mount)
+  - [Assembly](#sssembly)
+    - [Block stands and magnet mount](#block-stands-and-magnet-mount)
+    - [Excitation system](#excitation-system)
+    - [Emission system](#emission-system)
+- [Instrument case](#instrument-case)
+  - [3D printed parts](#3d-printed-parts)
+    - [Left screen mount](#left-screen-mount)
+    - [Right screen mount](#right-screen-mount)
+    - [Screen face plate](#screen-face-plate)
+  - [Block mounting partition](#block-mounting-partition)
+- [Instructions of use](#instructions-of-use)
+
+
+## Essential build parts list
+
+## Instrument case parts list
+
+## Scripts index  
+
 
 
 # Essential build
@@ -97,23 +121,16 @@ The eight photodiodes are fitted into the fixed photodiode mount (with light sen
 # Instrument case
 The key requirements for casing are that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide.
 
-## Parts list
-| Part: | Quantity: | Link: |
-| --------------- | --------------- | --------------- |
-| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
-| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
-
 ## 3D printed parts
 All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
 
-### left screen mount  
+### Left screen mount  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Left_screen_mount.png)  
 
-### right screen mount  
+### Right screen mount  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Right_Screen_mount.png)  
 
-### screen face plate  
+### Screen face plate  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Screen_face_plate.png)  
 
 ## Block mounting partition
@@ -172,7 +189,7 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 | Black acrylic sheet 6mm thick | 1 | https://www.amazon.com.au/SimbaLux-Acrylic-Plexiglass-Protective-Projects/dp/B07TVKHLP6 |
 | IP67 Rated USB Socket - Type A | 1 | https://www.jaycar.com.au/ip67-rated-usb-socket-type-a/p/PS0782 |
 
-## Scripts:   
+## Scripts index   
    
 * startup-script.sh  
 script that runs on startup and initiates the app and ....
