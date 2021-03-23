@@ -36,7 +36,7 @@ The voltage regulators provide individual step down 5V DC power supplies from th
 
 
 ## 3D printed parts
-All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
+All 3D printed parts were printed using black 1.75 PLA filament on an Ender3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
 
 ### magnet mount  
 This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the colsed end of the cavity is facing away from the block.
