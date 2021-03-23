@@ -55,11 +55,14 @@ This part retains the eight LEDs and clamps the excitation filter gel to the blo
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_8-LED_mount.png)  
 
 # Setting up the Raspberry pi  
-Used SDFormatter version 4.0 to perform a quick format of a 16GB microSD card.  
-https://www.sdcard.org/downloads/  
+
+
+1. Use SDFormatter (https://www.sdcard.org/downloads/) to perform a quick format of a 16GB microSD card.  
+
+2. Download the preconfigured image from this page named 'NEW-UNIT_19-03-21.img.gz'.
   
-Used Raspberry Pi Imager version 1.3 to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
-https://www.raspberrypi.org/software/  
+3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
+
    
 ## Scripts:   
    
