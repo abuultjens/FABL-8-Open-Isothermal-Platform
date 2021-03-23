@@ -1,12 +1,12 @@
 # FABL-8-Open-Isothermal-Platform
 <img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%202.png">
-Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device. The build instructions have been divided into an essential and optional section. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothemal platform. The optional section describes how we built a casing for the instriment, however this specific design was not manditory for function and could be used as a guid as there is considerable flexibility.
+Publicly accessible details on how to build and operate a FABL-8 isothermal diagnostic device. The build instructions have been divided into an essential and optional section. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothermal platform. The optional section describes how we built a casing for the instrument, however this specific design was not mandatory for function and could be used as a guide as there is considerable flexibility.
 
 ## About
 The FABL-8 is an open source, low cost and scalable diagnostic platform for the running of loop mediated isothermal amplification (LAMP) reactions. 
 
 ## Publication
-A puplication detailing the FABL-8 and its diagnostic performance agains commercial offerings is in progress.
+A publication detailing the FABL-8 and its diagnostic performance against commercial offerings is in progress.
 
 # Essential build
 
@@ -23,9 +23,9 @@ The circuit consists of five main systems:
 * __Voltage regulation__  
 Provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. 
 * __Control__  
-Consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system.  
+Consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accurately  quantify the clock pulses from the emission system.  
 * __Heater__  
-Provides high current on/off switching of two 10W wire wound resistors that form the heating elememnt. The heating system utelises a thermal breaker that acts as a failsafe to shutoff the heating element in the event of a control  malfunction.
+Provides high current on/off switching of two 10W wire wound resistors that form the heating element. The heating system utilises a thermal breaker that acts as a failsafe to shutoff the heating element in the event of a control malfunction.
 * __Excitation__  
 Sequentially illuminates LEDs in an eight LED array using an 8-channel analogue multiplexer.
 * __Emission__  
@@ -43,10 +43,10 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
 
 ## Heating block
-The heating block was made from aluminum using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) tap.
+The heating block was made from solid aluminium  using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) tap.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
 
-The thermal breaker and temperature sensor are mounted on the rear of the heating block. The thermal breaker mounts using M3 bolts while the tempreature sensor is retained using a small clip made from sheet metal that is secured under a thermal breaker mounting bolt head.
+The thermal breaker and temperature sensor are mounted on the rear of the heating block. The thermal breaker mounts using M3 bolts while the temperature sensor is retained using a small clip made from sheet metal that is secured under a thermal breaker mounting bolt head.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/thermal_breaker.png)
 
 ## Heating block stands
@@ -58,11 +58,11 @@ Stands were made from 1mm thick sheet metal. If sheet metal is difficult to sour
 All 3D printed parts were printed using black 1.75 PLA filament on an Ender3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
 
 ### Magnet mount  
-This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the colsed end of the cavity is facing away from the block.
+This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the closed end of the cavity is facing away from the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount.png)
 
 ### Fixed photodiode mount  
-This part retains the eight photodiodes and is sandwched between two 2mm thich block lid plates. The emission filter gel is mounted inbetween this part ad the lower block lid plate.
+This part retains the eight photodiodes and is sandwiched between two 2mm thick block lid plates. The emission filter gel is mounted between the photodiodes and the lower block lid plate.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_photodiode_mount.png)  
 
 ### Fixed LED mount  
@@ -80,7 +80,7 @@ The eight excitation LEDs are pressed into the fixed LED mount. During assembly 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Block_anno.jpg)
 
 ### Emission system
-The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and and individually secured with a small piece of stickytape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the stands are mounted on a sheet of acrylic.
+The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and individually secured with a small piece of sticky tape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the stands are mounted on a sheet of acrylic.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/emission_anno.jpg)
 
 
@@ -91,7 +91,7 @@ The eight photodiodes are fitted into the fixed photodiode mount (with light sen
 
 
 # Instrument case
-The key requiremnts for casing are that an enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide.
+The key requirements for casing are that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide.
 
 ## Parts list
 | Part: | Quantity: | Link: |
