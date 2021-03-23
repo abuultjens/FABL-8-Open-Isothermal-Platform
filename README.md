@@ -34,6 +34,14 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 ### Circuit schematic  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
+### Setting up the Raspberry pi  
+
+1. Use SDFormatter (https://www.sdcard.org/downloads/) to perform a quick format of a microSD card.  
+
+2. Download the preconfigured image from this page named 'NEW-UNIT_19-03-21.img.gz'.
+  
+3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
+
 ## Heating block
 The heating block was made from aluminum using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) tap.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
@@ -75,14 +83,7 @@ The eight excitation LEDs are pressed into the fixed LED mount. During assembly 
 The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and and individually secured with a small piece of stickytape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the stands are mounted on a sheet of acrylic.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/emission_anno.jpg)
 
-# Setting up the Raspberry pi  
 
-
-1. Use SDFormatter (https://www.sdcard.org/downloads/) to perform a quick format of a 16GB microSD card.  
-
-2. Download the preconfigured image from this page named 'NEW-UNIT_19-03-21.img.gz'.
-  
-3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
 
    
 ## Scripts:   
