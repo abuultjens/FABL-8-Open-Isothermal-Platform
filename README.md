@@ -14,13 +14,15 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 ## Circuit schematic  
 The circuit consists of five main elements:  
 * Voltage regulators  
+The voltage regulators provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. 
 * Control system  
+The control system consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system.  
 * Heater system  
+The heater system provides high current on/off switching of two 10W wire wound resistors that form the heating elememnt. The heating system utelises a thermal breaker that acts as a failsafe to shutoff the heating element in the event of a control  malfunction.
 * Excitation system  
+The Excitation system sequentially illuminates LEDs in an eight LED array using an 8-channel analogue multiplexer.
 * Emission system  
-
-The voltage regulators provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. The control system consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system. The heater system provides high current on/off switching of two 10W wire wound resistors that form the heating elememnt. The Excitation system sequentially illuminates LEDs in an eight LED array using an 8-channel analogue multiplexer. The emission system sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.  
-
+The emission system sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.    
 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
