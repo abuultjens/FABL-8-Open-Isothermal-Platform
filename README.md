@@ -86,6 +86,51 @@ The eight photodiodes are fitted into the fixed photodiode mount (with light sen
 
 
    
+
+
+
+
+# Instrument case
+The key requiremnts for casing are that an enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide.
+
+## Parts list
+| Part: | Quantity: | Link: |
+| --------------- | --------------- | --------------- |
+| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
+| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
+| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+
+## 3D printed parts
+All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
+
+### left screen mount  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Left_screen_mount.png)  
+
+### right screen mount  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Right_Screen_mount.png)  
+
+### screen face plate  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Screen_face_plate.png)  
+
+## Block mounting partition
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Partition.png)  
+
+
+
+
+# Instructions of use  
+
+* An Initial warmup period occurs upon powerup to stably raise the block temperature to 65oC. 
+
+* Once at operation temperature a reaction can be run by preparing LAMP reagents and template in an OptiGene strip, cutting off the plastic wings on the terminal ends of the strip, removing the magnetic block lid, inserting the strip and replacing the magnetic lid. 
+
+* The operator then closes the main instrument lid and uses the touchscreen interface to enter well information and initiate the run. During the run a plot of normalised florescence emission is displayed in real-time. 
+
+* At the conclusion of the run the measurements are wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
+
+
+
+
 ## Scripts:   
    
 * startup-script.sh  
@@ -129,46 +174,4 @@ kills python and sets all GPIO off
 
 * stepper_SW_colour-sensor_MICROSTEP_CAL.py  
 steps through all eight wells and read photodiodes  
-
-
-
-# Instrument case
-
-## Parts list
-| Part: | Quantity: | Link: |
-| --------------- | --------------- | --------------- |
-| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
-| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
-
-## 3D printed parts
-All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
-
-### left screen mount  
-![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Left_screen_mount.png)  
-
-### right screen mount  
-![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Right_Screen_mount.png)  
-
-### screen face plate  
-![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Screen_face_plate.png)  
-
-## Block mounting partition
-![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Partition.png)  
-
-
-
-
-# Instructions of use  
-
-* An Initial warmup period occurs upon powerup to stably raise the block temperature to 65oC. 
-
-* Once at operation temperature a reaction can be run by preparing LAMP reagents and template in an OptiGene strip, cutting off the plastic wings on the terminal ends of the strip, removing the magnetic block lid, inserting the strip and replacing the magnetic lid. 
-
-* The operator then closes the main instrument lid and uses the touchscreen interface to enter well information and initiate the run. During the run a plot of normalised florescence emission is displayed in real-time. 
-
-* At the conclusion of the run the measurements are wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
-
-
-
 
