@@ -13,7 +13,7 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 
 ## Circuit schematic  
 The circuit consists of five main elements:  
-* __Voltage regulators__
+* __Voltage regulators__  
 Provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. 
 * __Control system__  
 Consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system.  
