@@ -27,13 +27,14 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
 ## Heating block
-The heating block was made from aluminum using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. 
+The heating block was made from aluminum using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) tap.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
 
-
+The thermal breaker and temperature sensor are mounted on the rear of the heating block. The thermal breaker mounts using M3 bolts while the tempreature sensor is retained using a small clip made from sheet metal that is secured under a thermal breaker mounting bolt head.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/thermal_breaker.png)
 
-## Sheet metal block stands
+## Heating block stands
+Stands were made from 1mm thick sheet metal. If sheet metal is difficult to source or work with, any kind of block mounting stand could be fabricated as long as it can withstand a constant 65oC.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/block_stands.png)
 
 
