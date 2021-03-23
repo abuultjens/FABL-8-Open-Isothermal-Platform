@@ -1,5 +1,5 @@
 # FABL-8-Open-Isothermal-Platform
-Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device. The build instructions have been divided into essential and optional sections. The essential section details how to build just the heating, excitation and emission measuring systems as well as a touchscreen interface. The optional section describes a specific instriment casing option, however this can be used as a guide.
+Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device. The build instructions have been divided into essential and optional sections. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothemal platform. The optional section describes a specific instriment casing option, however this can be used as a guide.
 
 # Essential build
 
