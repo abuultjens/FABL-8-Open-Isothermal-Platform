@@ -63,10 +63,13 @@ This part retains the eight LEDs and clamps the excitation filter gel to the blo
 
 ## Assembly
 
+Two wire wound resistors are fitted into the cavity underneath the heating block and secured in place using the two resistor retaining plates. The magnet mount is first attached to the block stand with two M5 bolts and nuts. The block is then mounted to the block stand by passing M3 bolts through the gaps in the magnet mounts. 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount_anno.jpg)
 
+The eight excitation LEDs are pressed into the fixed LED mount. During assembly the excitation gel is sandwiched between the block and the fixed LED mount which is secured in place using M3 bolts, nuts, standoffs and the rear the rear LED mount retainer.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Block_anno.jpg)
 
+The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and and individually secured with a small piece of stickytape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the stands are mounted on a sheet of acrylic.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/emission_anno.jpg)
 
 # Setting up the Raspberry pi  
