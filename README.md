@@ -9,8 +9,11 @@ The FABL-8 is an open source, low cost and scalable diagnostic platform for the 
 A publication detailing the FABL-8 and its diagnostic performance against commercial offerings is in progress.
 
 
-- [Heating block](#heating-block)
-
+- [Essential build](#essential-build)
+  - [Electronic configuration](#electronic-configuration)  
+    - [Circuit schematic](#circuit-schematic)
+    - [Setting up the Raspberry pi](#Setting-up-the-Raspberry-pi)
+  - [Heating block](#heating-block)
 
 
 # Essential build
