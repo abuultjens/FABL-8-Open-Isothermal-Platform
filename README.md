@@ -61,6 +61,10 @@ This part retains the eight photodiodes and is sandwched between two 2mm thich b
 This part retains the eight LEDs and clamps the excitation filter gel to the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_8-LED_mount.png)  
 
+## Assembly
+
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount_anno.jpg)
+
 # Setting up the Raspberry pi  
 
 
