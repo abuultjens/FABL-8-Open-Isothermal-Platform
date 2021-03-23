@@ -1,5 +1,5 @@
 # FABL-8-Open-Isothermal-Platform
-Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device. The build instructions have been divided into essential and optional sections. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothemal platform. The optional section describes a specific instriment casing option, however this can be used as a guide.
+Publically accessible details on how to build and opperate a FABL-8 isothermal diagnostic device. The build instructions have been divided into an essential and optional section. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothemal platform. The optional section describes how we built a casing for the instriment, however this specific design was not manditory for function and could be used as a guid as there is considerable flexibility. 
 
 # Essential build
 
@@ -11,7 +11,7 @@ Publically accessible details on how to build and opperate a FABL-8 isothermal d
 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
 
 
-## Circuit schematic  
+## Electronic configuration
 The circuit consists of five main elements:  
 * __Voltage regulators__  
 Provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. 
@@ -24,6 +24,7 @@ Sequentially illuminates LEDs in an eight LED array using an 8-channel analogue 
 * __Emission system__  
 Sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.    
 
+### Circuit schematic  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
 ## Heating block
