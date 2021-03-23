@@ -8,42 +8,14 @@ The FABL-8 is an open source, low cost and scalable diagnostic platform for the 
 ## Publication
 A publication detailing the FABL-8 and its diagnostic performance against commercial offerings is in progress.
 
+
+- [Heating block](#heating-block)
+
+
+
 # Essential build
 
-## Parts list
-| Part: | Quantity: | Link: |
-| --------------- | --------------- | --------------- |
-| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
-| 5M bolts and nuts | 1 | https://www.bunnings.com.au/zenith-m5-x-25mm-316-stainless-steel-round-head-bolt-and-nut-5-pack_p2310748 |
-| Arduino Compatible 24V 5A MOS Driver Module | 3 | https://www.jaycar.com.au/arduino-compatible-24v-5a-mos-driver-module/p/XC4488 |
-| Arduino Compatible 5V Relay Board | 1 | https://www.jaycar.com.au/arduino-compatible-5v-relay-board/p/XC4419 |
-| Arduino Compatible DC Voltage Regulator 2A | 4 | https://www.auselectronicsdirect.com.au/dc-dc-voltage-step-down-converter-module-for-ardui?gclid=Cj0KCQjw3duCBhCAARIsAJeFyPXY0H_Z5v1TH_utRIlQ2Qi64cqLh3KEt3j74XoJ1cvceE0Bd_h9uLgaAl81EALw_wcB |
-| Blue 5mm CREE LED 23500mcd Round Clear | 8 | https://www.jaycar.com.au/blue-5mm-cree-led-23500mcd-round-clear/p/ZD0291 |
-| DC Power Connector Jack 5 A  2.5 mm  panel mount | 1 | https://au.element14.com/switchcraft-conxall/712a/dc-power-jack-2-5mm-12vdc-5a-solder/dp/1608729 |
-| DC power supply 120W 12V | 1 | https://www.jaycar.com.au/12v-dc-10a-desktop-power-supply-2-1mm-dc-plug/p/MP3241 |
-| Digital Temperature Sensor Module - DS18B20 | 1 | https://www.jaycar.com.au/digital-temperature-sensor-module/p/XC3700 |
-| Emission filter gel: LEE filter 015 and 767 | 1 | http://www.leefilters.com |
-| Excitation filter gel: LEE filter 126 | 1 | http://www.leefilters.com |
-| HDMI cable 1.5m | 1 | https://www.jaycar.com.au/economy-hdmi-cable-1-5m/p/WV7913?pos=2&queryId=171ab68ba12a5e9c9169ce26e2ab1f60 |
-| HDMI resistive touch interface 5inch screen 800x480  | 1 | https://www.jaycar.com.au/5-inch-touchscreen-with-hdmi-and-usb/p/XC9024 |
-| Heat Shrink | 1 | https://www.jaycar.com.au/3-0mm-black-heatshrink-tubing/p/WH5532 |
-| High current wire (meters) (red and black) | 1 | https://www.jaycar.com.au/black-heavy-duty-hook-up-wire-sold-per-metre/p/WH3041 |
-| Low current wire (meters) (various colours) | 2 | https://www.jaycar.com.au/hook-up-wire-pack-2-metres/p/WH3025 |
-| M3 bolts 25mm (pack of 25) | 1 | https://www.jaycar.com.au/m3-x-25mm-steel-screws-pk-25/p/HP0414 |
-| M3 nuts (pack of 25) | 1 | https://www.jaycar.com.au/m3-steel-nuts-pk-25/p/HP0425 |
-| M3 standoff (pack of 8) | 1 | https://www.jaycar.com.au/m3-x-10mm-tapped-metal-spacers-pk8/p/HP0900 |
-| M3 washers (pack of 200) | 1 | https://www.jaycar.com.au/3mm-steel-flat-washers-pk-200/p/HP0431 |
-| Photodiodes - TSL235R | 8 | https://www.sparkfun.com/products/9768 |
-| Phototransistor Optocoupler 4N25/4N28  | 1 | https://www.jaycar.com.au/4n25-4n28-phototransistor-optocoupler/p/ZD1928 |
-| Rare Earth Magnets diameter=10mm height=3mm (pack of four) | 1 | https://www.jaycar.com.au/rare-earth-magnet-small-pk-4/p/LM1622 |
-| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
-| Resistor 56 ohm 1/4 Watt | 2 | https://www.jaycar.com.au/56-ohm-1-watt-carbon-film-resistors-pack-of-2/p/RR2544 |
-| Single 8-channel Analogue Multiplexer CMOS IC 4051 | 2 | https://www.jaycar.com.au/4051-single-8-channel-analogue-multiplexer-cmos-ic/p/ZC4051 |
-| Thermal breaker (80oc) | 1 | https://sinolec.co.uk/en/thermal-cut-out-bimetal-switches/1211447-thermal-cut-out-80c-nc.html |
-| Wire Wound Resistor 10 Ohm 10 Watt  | 2 | https://www.jaycar.com.au/10-ohm-10-watt-wire-wound-resistor/p/RR3352 |
-| Craftright 465 x 360 x 175mm Safe Case | 1 | https://www.bunnings.com.au/craftright-465-x-360-x-175mm-safe-case_p5810252 |
-| Black acrylic sheet 6mm thick | 1 | https://www.amazon.com.au/SimbaLux-Acrylic-Plexiglass-Protective-Projects/dp/B07TVKHLP6 |
-| IP67 Rated USB Socket - Type A | 1 | https://www.jaycar.com.au/ip67-rated-usb-socket-type-a/p/PS0782 |
+
 
 
 
@@ -158,7 +130,44 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 * At the conclusion of the run the measurements are wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
 
 
+## Essential build parts list
+| Part: | Quantity: | Link: |
+| --------------- | --------------- | --------------- |
+| 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
+| 5M bolts and nuts | 1 | https://www.bunnings.com.au/zenith-m5-x-25mm-316-stainless-steel-round-head-bolt-and-nut-5-pack_p2310748 |
+| Arduino Compatible 24V 5A MOS Driver Module | 3 | https://www.jaycar.com.au/arduino-compatible-24v-5a-mos-driver-module/p/XC4488 |
+| Arduino Compatible 5V Relay Board | 1 | https://www.jaycar.com.au/arduino-compatible-5v-relay-board/p/XC4419 |
+| Arduino Compatible DC Voltage Regulator 2A | 4 | https://www.auselectronicsdirect.com.au/dc-dc-voltage-step-down-converter-module-for-ardui?gclid=Cj0KCQjw3duCBhCAARIsAJeFyPXY0H_Z5v1TH_utRIlQ2Qi64cqLh3KEt3j74XoJ1cvceE0Bd_h9uLgaAl81EALw_wcB |
+| Blue 5mm CREE LED 23500mcd Round Clear | 8 | https://www.jaycar.com.au/blue-5mm-cree-led-23500mcd-round-clear/p/ZD0291 |
+| DC Power Connector Jack 5 A  2.5 mm  panel mount | 1 | https://au.element14.com/switchcraft-conxall/712a/dc-power-jack-2-5mm-12vdc-5a-solder/dp/1608729 |
+| DC power supply 120W 12V | 1 | https://www.jaycar.com.au/12v-dc-10a-desktop-power-supply-2-1mm-dc-plug/p/MP3241 |
+| Digital Temperature Sensor Module - DS18B20 | 1 | https://www.jaycar.com.au/digital-temperature-sensor-module/p/XC3700 |
+| Emission filter gel: LEE filter 015 and 767 | 1 | http://www.leefilters.com |
+| Excitation filter gel: LEE filter 126 | 1 | http://www.leefilters.com |
+| HDMI cable 1.5m | 1 | https://www.jaycar.com.au/economy-hdmi-cable-1-5m/p/WV7913?pos=2&queryId=171ab68ba12a5e9c9169ce26e2ab1f60 |
+| HDMI resistive touch interface 5inch screen 800x480  | 1 | https://www.jaycar.com.au/5-inch-touchscreen-with-hdmi-and-usb/p/XC9024 |
+| Heat Shrink | 1 | https://www.jaycar.com.au/3-0mm-black-heatshrink-tubing/p/WH5532 |
+| High current wire (meters) (red and black) | 1 | https://www.jaycar.com.au/black-heavy-duty-hook-up-wire-sold-per-metre/p/WH3041 |
+| Low current wire (meters) (various colours) | 2 | https://www.jaycar.com.au/hook-up-wire-pack-2-metres/p/WH3025 |
+| M3 bolts 25mm (pack of 25) | 1 | https://www.jaycar.com.au/m3-x-25mm-steel-screws-pk-25/p/HP0414 |
+| M3 nuts (pack of 25) | 1 | https://www.jaycar.com.au/m3-steel-nuts-pk-25/p/HP0425 |
+| M3 standoff (pack of 8) | 1 | https://www.jaycar.com.au/m3-x-10mm-tapped-metal-spacers-pk8/p/HP0900 |
+| M3 washers (pack of 200) | 1 | https://www.jaycar.com.au/3mm-steel-flat-washers-pk-200/p/HP0431 |
+| Photodiodes - TSL235R | 8 | https://www.sparkfun.com/products/9768 |
+| Phototransistor Optocoupler 4N25/4N28  | 1 | https://www.jaycar.com.au/4n25-4n28-phototransistor-optocoupler/p/ZD1928 |
+| Rare Earth Magnets diameter=10mm height=3mm (pack of four) | 1 | https://www.jaycar.com.au/rare-earth-magnet-small-pk-4/p/LM1622 |
+| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
+| Resistor 56 ohm 1/4 Watt | 2 | https://www.jaycar.com.au/56-ohm-1-watt-carbon-film-resistors-pack-of-2/p/RR2544 |
+| Single 8-channel Analogue Multiplexer CMOS IC 4051 | 2 | https://www.jaycar.com.au/4051-single-8-channel-analogue-multiplexer-cmos-ic/p/ZC4051 |
+| Thermal breaker (80oc) | 1 | https://sinolec.co.uk/en/thermal-cut-out-bimetal-switches/1211447-thermal-cut-out-80c-nc.html |
+| Wire Wound Resistor 10 Ohm 10 Watt  | 2 | https://www.jaycar.com.au/10-ohm-10-watt-wire-wound-resistor/p/RR3352 |
 
+## Instrument case parts list
+| Part: | Quantity: | Link: |
+| --------------- | --------------- | --------------- |
+| Craftright 465 x 360 x 175mm Safe Case | 1 | https://www.bunnings.com.au/craftright-465-x-360-x-175mm-safe-case_p5810252 |
+| Black acrylic sheet 6mm thick | 1 | https://www.amazon.com.au/SimbaLux-Acrylic-Plexiglass-Protective-Projects/dp/B07TVKHLP6 |
+| IP67 Rated USB Socket - Type A | 1 | https://www.jaycar.com.au/ip67-rated-usb-socket-type-a/p/PS0782 |
 
 ## Scripts:   
    
