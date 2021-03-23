@@ -26,8 +26,8 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
-## CNC aluminum heating block
-
+## Heating block
+The heating block was made from aluminum using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
 
 
