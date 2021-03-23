@@ -67,6 +67,8 @@ This part retains the eight LEDs and clamps the excitation filter gel to the blo
 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Block_anno.jpg)
 
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/emission_anno.jpg)
+
 # Setting up the Raspberry pi  
 
 
