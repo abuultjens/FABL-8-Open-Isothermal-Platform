@@ -22,7 +22,7 @@ The circuit consists of five main elements:
 The voltage regulators provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. The control system consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system. The heater system provides high current on/off switching of two 10W wire wound resistors that form the heating elememnt. The Excitation system sequentially illuminates LEDs in an eight LED array using an 8-channel analogue multiplexer. The emission system sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.  
 
 
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
 ## CNC aluminum heating block
 
@@ -40,15 +40,15 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 
 ### magnet mount  
 This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the colsed end of the cavity is facing away from the block.
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Magnet_mount.png)
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount.png)
 
 ### fixed photodiode mount  
 This part retains the eight photodiodes and is sandwched between two 2mm thich block lid plates. The emission filter gel is mounted inbetween this part ad the lower block lid plate.
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_photodiode_mount.png)  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_photodiode_mount.png)  
 
 ### fixed LED mount  
 This part retains the eight LEDs and clamps the excitation filter gel to the block.
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Fixed_8-LED_mount.png)  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_8-LED_mount.png)  
 
 # Setting up the Raspberry pi  
 Used SDFormatter version 4.0 to perform a quick format of a 16GB microSD card.  
@@ -116,16 +116,16 @@ steps through all eight wells and read photodiodes
 All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
 
 ### left screen mount  
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Left_screen_mount.png)  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Left_screen_mount.png)  
 
 ### right screen mount  
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Right_Screen_mount.png)  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Right_Screen_mount.png)  
 
 ### screen face plate  
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Screen_face_plate.png)  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Screen_face_plate.png)  
 
 ## Block mounting partition
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Partition.png)  
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Partition.png)  
 
 
 
