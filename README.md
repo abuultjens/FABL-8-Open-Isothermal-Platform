@@ -19,16 +19,16 @@ A puplication detailing the FABL-8 and its diagnostic performance agains commerc
 
 
 ## Electronic configuration
-The circuit consists of five main elements:  
-* __Voltage regulators__  
+The circuit consists of five main systems:  
+* __Voltage regulation__  
 Provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. 
-* __Control system__  
+* __Control__  
 Consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system.  
-* __Heater system__  
+* __Heater__  
 Provides high current on/off switching of two 10W wire wound resistors that form the heating elememnt. The heating system utelises a thermal breaker that acts as a failsafe to shutoff the heating element in the event of a control  malfunction.
-* __Excitation system__  
+* __Excitation__  
 Sequentially illuminates LEDs in an eight LED array using an 8-channel analogue multiplexer.
-* __Emission system__  
+* __Emission__  
 Sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.    
 
 ### Circuit schematic  
@@ -49,15 +49,15 @@ Stands were made from 1mm thick sheet metal. If sheet metal is difficult to sour
 ## 3D printed parts
 All 3D printed parts were printed using black 1.75 PLA filament on an Ender3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
 
-### magnet mount  
+### Magnet mount  
 This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the colsed end of the cavity is facing away from the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount.png)
 
-### fixed photodiode mount  
+### Fixed photodiode mount  
 This part retains the eight photodiodes and is sandwched between two 2mm thich block lid plates. The emission filter gel is mounted inbetween this part ad the lower block lid plate.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_photodiode_mount.png)  
 
-### fixed LED mount  
+### Fixed LED mount  
 This part retains the eight LEDs and clamps the excitation filter gel to the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_8-LED_mount.png)  
 
