@@ -26,7 +26,7 @@ The voltage regulators provide individual step down 5V DC power supplies from th
 
 ## CNC aluminum heating block
 
-![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/Simple_block_with_threaded_holes.png)
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
 
 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/thermal_breaker.png)
