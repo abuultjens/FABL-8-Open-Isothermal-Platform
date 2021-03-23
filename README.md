@@ -18,7 +18,7 @@ The circuit consists of five main elements:
 * Heater system
 * Excitation system
 * Emission system
-The voltage regulators provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. The control system consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The heater system provides on/off switching of two 10W wire wound resistors that form the heating elememnt. The Excitation system sequentially illuminates LEDs in an eight LED array. The emission system sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array.
+The voltage regulators provide individual step down 5V DC power supplies from the input 19V DC for the control, heater, excitation and emission systems. The control system consists of a Raspberry pi that orchestrates the heater, excitation and emission systems. The control system uses a 12-stage binary counter to accuratly quantify the clock pulses from the emission system. The heater system provides high current on/off switching of two 10W wire wound resistors that form the heating elememnt. The Excitation system sequentially illuminates LEDs in an eight LED array using an 8-channel analogue multiplexer. The emission system sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.
 
 
 ![Image description](https://github.com/abuultjens/FABL-8-build/blob/main/FABL-8_schematic.png)
