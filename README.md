@@ -41,9 +41,7 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
 
 
 # Essential build
-
-All required parts can be found in the [Essential build parts list](#essential-build-parts-list).
-
+This section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothermal platform. All required parts can be found in the [Essential build parts list](#essential-build-parts-list).
 
 ## Electronic configuration
 The circuit consists of five main systems:  
