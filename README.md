@@ -1,8 +1,6 @@
 # FABL-8-Open-Isothermal-Platform
 <img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%202.png">
 
-
-
 Publicly accessible details on how to build and operate a FABL-8 isothermal diagnostic device. The build instructions have been divided into an essential and optional section. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothermal platform. The optional section describes how we built a casing for the instrument, however this specific design was not mandatory for function and could be used as a guide as there is considerable flexibility.
 
 ## About
@@ -85,15 +83,15 @@ Stands were made from 1mm thick sheet metal. If sheet metal is difficult to sour
 All 3D printed parts were printed using black 1.75 PLA filament on an Ender3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
 
 ### Magnet mount  
-This part retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the closed end of the cavity is facing away from the block.
+Retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the closed end of the cavity is facing away from the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount.png)
 
 ### Fixed photodiode mount  
-This part retains the eight photodiodes and is sandwiched between two 2mm thick block lid plates. The emission filter gel is mounted between the photodiodes and the lower block lid plate.
+Retains the eight photodiodes and is sandwiched between two 2mm thick block lid plates. The emission filter gel is mounted between the photodiodes and the lower block lid plate.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_photodiode_mount.png)  
 
 ### Fixed LED mount  
-This part retains the eight LEDs and clamps the excitation filter gel to the block.
+Retains the eight LEDs and clamps the excitation filter gel to the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_8-LED_mount.png)  
 
 ## Assembly
