@@ -66,6 +66,8 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
   
 3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
 
+Details of all scripts packaged into the image file can be found in the [Script index](#script-index).
+
 ## Heating block
 The heating block was made from solid aluminium  using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) tap.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
