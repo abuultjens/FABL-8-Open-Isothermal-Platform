@@ -34,13 +34,6 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
 - [Instrument case parts list](#Instrument-case-parts-list)
 - [Script index](#script-index)
 
-## Essential build parts list
-
-## Instrument case parts list
-
-## Scripts index  
-
-
 
 # Essential build
 
