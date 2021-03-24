@@ -30,7 +30,9 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
     - [Screen face plate](#screen-face-plate)
   - [Block mounting partition](#block-mounting-partition)
 - [Instructions of use](#instructions-of-use)
-
+- [Essential build parts list](#essential-build-parts-list)
+- [Instrument case parts list](#Instrument-case-parts-list)
+- [Script index](#script-index)
 
 ## Essential build parts list
 
@@ -43,7 +45,7 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
 # Essential build
 
 
-
+All required parts can be found in the [Essential build parts list](#essential-build-parts-list).
 
 
 ## Electronic configuration
@@ -119,7 +121,7 @@ The eight photodiodes are fitted into the fixed photodiode mount (with light sen
 
 
 # Instrument case
-The key requirements for casing are that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide.
+The key requirements for casing are that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide. All required parts can be found in the [Instrument case parts list](#Instrument-case-parts-list).
 
 ## 3D printed parts
 All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
@@ -189,7 +191,7 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 | Black acrylic sheet 6mm thick | 1 | https://www.amazon.com.au/SimbaLux-Acrylic-Plexiglass-Protective-Projects/dp/B07TVKHLP6 |
 | IP67 Rated USB Socket - Type A | 1 | https://www.jaycar.com.au/ip67-rated-usb-socket-type-a/p/PS0782 |
 
-## Scripts index   
+## Script index   
    
 * startup-script.sh  
 script that runs on startup and initiates the app and ....
