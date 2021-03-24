@@ -62,7 +62,6 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
 ### Setting up the Raspberry pi  
-<img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%203.png">
 
 1. Use SDFormatter (https://www.sdcard.org/downloads/) to perform a quick format of a microSD card.  
 
