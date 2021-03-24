@@ -1,4 +1,7 @@
 # FABL-8-Open-Isothermal-Platform
+<img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%202.png">
+
+
 
 Publicly accessible details on how to build and operate a FABL-8 isothermal diagnostic device. The build instructions have been divided into an essential and optional section. The essential section details how to build just the control, heating, excitation and emission systems as well as a touchscreen interface - the bare minimum for an operating isothermal platform. The optional section describes how we built a casing for the instrument, however this specific design was not mandatory for function and could be used as a guide as there is considerable flexibility.
 
@@ -9,7 +12,7 @@ The FABL-8 is an open source, low cost and scalable diagnostic platform for the 
 A publication detailing the FABL-8 and its diagnostic performance against commercial offerings is in progress.
 
 # Page index
-<img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%202.png">
+<img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%201.png">
 
 - [Essential build](#essential-build)
   - [Electronic configuration](#electronic-configuration)  
