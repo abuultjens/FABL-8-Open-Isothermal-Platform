@@ -68,7 +68,7 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 Details of all scripts packaged into the image file can be found in the [Script index](#script-index).
 
 ## Heating block
-The heating block was made from solid aluminium  using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) tap.
+The heating block was made from solid aluminium  using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) threads.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Simple_block_with_threaded_holes.png)
 
 The thermal breaker and temperature sensor are mounted on the rear of the heating block. The thermal breaker mounts using M3 bolts while the temperature sensor is retained using a small clip made from sheet metal that is secured under a thermal breaker mounting bolt head.
@@ -78,12 +78,11 @@ The thermal breaker and temperature sensor are mounted on the rear of the heatin
 Stands were made from 1mm thick sheet metal. If sheet metal is difficult to source or work with, any kind of block mounting stand could be fabricated as long as it can withstand a constant 65oC.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/block_stands.png)
 
-
 ## 3D printed parts
-All 3D printed parts were printed using black 1.75 PLA filament on an Ender3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
+All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D Ender-3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
 
 ### Magnet mount  
-Retains two rare earth magnets in its upper cavity. The part holds the magnets captive when the closed end of the cavity is facing away from the block.
+Retains two rare earth magnets in its upper cavity. The mount holds the magnets captive when the closed end of the cavity is facing away from the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount.png)
 
 ### Fixed photodiode mount  
@@ -97,29 +96,24 @@ Retains the eight LEDs and clamps the excitation filter gel to the block.
 ## Assembly
 
 ### Block stands and magnet mount
-Two wire wound resistors are fitted into the cavity underneath the heating block and secured in place using the two resistor retaining plates. The magnet mount is first attached to the block stand with two M5 bolts and nuts. The block is then mounted to the block stand by passing M3 bolts through the gaps in the magnet mounts. 
+Two wire wound resistors are fitted into the cavity underneath the heating block and are secured in place using the two resistor retaining plates. The magnet mount is first attached to the block stand with two M5 bolts and nuts. The block is then mounted to the block stand by passing M3 bolts through the gaps in the magnet mounts. 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount_anno.jpg)
 
 ### Excitation system
-The eight excitation LEDs are pressed into the fixed LED mount. During assembly the excitation gel is sandwiched between the block and the fixed LED mount which is secured in place using M3 bolts, nuts, standoffs and the rear LED mount retainer.
+The eight excitation LEDs are pressed into the fixed LED mount. The excitation gel is sandwiched between the block and the fixed LED mount which is secured in place using M3 bolts, nuts, standoffs and two rear LED mount retainers.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Block_anno.jpg)
 
 ### Emission system
-The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and individually secured with a small piece of sticky tape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the stands are mounted on a sheet of acrylic.
+The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and individually secured with a small piece of sticky tape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the entire assembly is mounted on a sheet of acrylic.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/emission_anno.jpg)
 
 
 
-   
-
-
-
-
 # Instrument case
-The key requirements for casing are that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID to reach a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. We have here detailed our case configuration which may be useful as a guide. All required parts can be found in the [Instrument case parts list](#Instrument-case-parts-list).
+The key requirements for a FABL-8 casing are firstly that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID controlled heating block to reach and maintain a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. Below we have detailed our case configuration which may be useful as a guide. All required parts can be found in the [Instrument case parts list](#Instrument-case-parts-list).
 
 ## 3D printed parts
-All parts were printed on an Ender3 modified with a BL touch using black 1.75 PLA filament.  
+All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D Ender-3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
 
 ### Left screen mount  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Left_screen_mount.png)  
@@ -140,11 +134,11 @@ All parts were printed on an Ender3 modified with a BL touch using black 1.75 PL
 
 * An Initial warmup period occurs upon powerup to stably raise the block temperature to 65oC. 
 
-* Once at operation temperature a reaction can be run by preparing LAMP reagents and template in an OptiGene strip, cutting off the plastic wings on the terminal ends of the strip, removing the magnetic block lid, inserting the strip and replacing the magnetic lid. 
+* Once at operation temperature a reaction can be run by preparing LAMP reagents and template in an OptiGene strip, cutting off the plastic wings on the terminal ends of the strip, removing the magnetic block lid, inserting the strip and replacing the magnetic lid. Specific care must be taken to ensure that all tube lids are firmly pressed closed prior to replacing the block lid.
 
-* The operator then closes the main instrument lid and uses the touchscreen interface to enter well information and initiate the run. During the run a plot of normalised florescence emission is displayed in real-time. 
+* The operator then closes the main instrument case lid and uses the touchscreen interface to enter well information and initiate the run. During the run a plot of normalised florescence emission is displayed in real-time. 
 
-* At the conclusion of the run the measurements are wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
+* At the conclusion of the run the measurements are saved locally as well as wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
 
 
 ## Essential build parts list
