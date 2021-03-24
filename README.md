@@ -41,7 +41,7 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
 
 
 # Essential build
-
+<img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%201.png">
 
 All required parts can be found in the [Essential build parts list](#essential-build-parts-list).
 
