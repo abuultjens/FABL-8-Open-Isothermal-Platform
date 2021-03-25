@@ -54,6 +54,8 @@ Sequentially illuminates LEDs in an eight LED array using an 8-channel analogue 
 * __Emission__  
 Sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.    
 
+Return to index page [Page index](#page-index).
+
 ### Circuit schematic  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
