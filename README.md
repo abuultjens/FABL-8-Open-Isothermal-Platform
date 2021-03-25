@@ -59,6 +59,8 @@ Return to [page index](#page-index).
 ### Circuit schematic  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
 
+Return to [page index](#page-index).
+
 ### Setting up the Raspberry pi  
 
 1. Use SDFormatter (https://www.sdcard.org/downloads/) to perform a quick format of a microSD card.  
@@ -68,6 +70,8 @@ Return to [page index](#page-index).
 3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
 
 Details of all scripts packaged into the image file can be found in the [Script index](#script-index).
+
+Return to [page index](#page-index).
 
 ## Heating block
 The heating block was made from solid aluminium  using a computer numerical control (CNC) machine. The lid plates and resistor retainer plates were made using a drill press. All 2.5mm holes in the heating block were tapped with metric 3mm (M3) threads.
@@ -109,7 +113,7 @@ The eight excitation LEDs are pressed into the fixed LED mount. The excitation g
 The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and individually secured with a small piece of sticky tape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the entire assembly is mounted on a sheet of acrylic.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/emission_anno.jpg)
 
-
+Return to [page index](#page-index).
 
 # Instrument case
 The key requirements for a FABL-8 casing are firstly that the enclosure blocks out all environmental light and secondly that it provides a thermally insulating environment for the PID controlled heating block to reach and maintain a stable 65oC. Our implementation of the FABL-8 involved a robust briefcase style plastic box and inner acrylic partition that was used to mount the heating block. While this specific setup was ideal for transportation and storage, any casing configuration that meets the abovementioned requirements will suffice. Below we have detailed our case configuration which may be useful as a guide. All required parts can be found in the [Instrument case parts list](#Instrument-case-parts-list).
@@ -129,7 +133,7 @@ All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D 
 ## Block mounting partition
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Partition.png)  
 
-
+Return to [page index](#page-index).
 
 
 # Instructions of use  
@@ -142,6 +146,7 @@ All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D 
 
 * At the conclusion of the run the measurements are saved locally as well as wirelessly uploaded to a webserver via a hotspot hosted by a mobile device. The webserver calculates the derivative of the normalised emission timeseries to classify if the well was positive or negative as well as time to positive (TTP).
 
+Return to [page index](#page-index).
 
 ## Essential build parts list
 | Part: | Quantity: | Link: |
@@ -175,12 +180,16 @@ All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D 
 | Thermal breaker (80oc) | 1 | https://sinolec.co.uk/en/thermal-cut-out-bimetal-switches/1211447-thermal-cut-out-80c-nc.html |
 | Wire Wound Resistor 10 Ohm 10 Watt  | 2 | https://www.jaycar.com.au/10-ohm-10-watt-wire-wound-resistor/p/RR3352 |
 
+Return to [page index](#page-index).
+
 ## Instrument case parts list
 | Part: | Quantity: | Link: |
 | --------------- | --------------- | --------------- |
 | Craftright 465 x 360 x 175mm Safe Case | 1 | https://www.bunnings.com.au/craftright-465-x-360-x-175mm-safe-case_p5810252 |
 | Black acrylic sheet 6mm thick | 1 | https://www.amazon.com.au/SimbaLux-Acrylic-Plexiglass-Protective-Projects/dp/B07TVKHLP6 |
 | IP67 Rated USB Socket - Type A | 1 | https://www.jaycar.com.au/ip67-rated-usb-socket-type-a/p/PS0782 |
+
+Return to [page index](#page-index).
 
 ## Script index   
    
@@ -226,3 +235,4 @@ kills python and sets all GPIO off
 * stepper_SW_colour-sensor_MICROSTEP_CAL.py  
 steps through all eight wells and read photodiodes  
 
+Return to [page index](#page-index).
