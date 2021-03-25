@@ -57,7 +57,7 @@ Sequentially reads clock pulses from light-to-frequency photodiodes in an eight 
 Return to [page index](#page-index).
 
 ### Power source
-We used 19V 6.5A? laptop power supply packs as power sources for the FABLE-8 units. Alternatively, a 12V power pack with at least 10A output (120W) would suffice. Using a different power supply may need cause a different heating effect and the PID parameters may need to be slightly adjusted. For more detail see the PID_SAFE.py script in the [script index](#script-index).
+We used 19V 6.3A laptop power supply packs as power sources for the FABLE-8 units. Alternatively, a 12V power pack with at least 10A output (120W) would suffice. Using a different power supply may need cause a different heating effect and the PID parameters may need to be slightly adjusted. For more detail see the PID_SAFE.py script in the [script index](#script-index).
 
 ### Circuit schematic  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
