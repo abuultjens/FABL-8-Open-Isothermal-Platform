@@ -15,6 +15,7 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
 - [Essential build](#essential-build)
   - [Electronic configuration](#electronic-configuration)  
     - [Circuit schematic](#circuit-schematic)
+    - [Power source](#power-source)
     - [Setting up the Raspberry pi](#Setting-up-the-Raspberry-pi)
   - [Heating block](#heating-block)
   - [Heating block stands](#heating-block-stands)
