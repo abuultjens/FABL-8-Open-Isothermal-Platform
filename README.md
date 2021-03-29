@@ -86,9 +86,13 @@ The heating block was made from solid aluminium  using a computer numerical cont
 The thermal breaker and temperature sensor are mounted on the rear of the heating block. The thermal breaker mounts using M3 bolts while the temperature sensor is retained using a small clip made from sheet metal that is secured under a thermal breaker mounting bolt head.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/thermal_breaker.png)
 
+Return to [page index](#page-index).
+
 ## Heating block stands
 Stands were made from 1mm thick sheet metal. If sheet metal is difficult to source or work with, any kind of block mounting stand could be fabricated as long as it can withstand a constant 65oC.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/block_stands.png)
+
+Return to [page index](#page-index).
 
 ## 3D printed parts
 All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D Ender-3 3D printer modified with a BLTouch V2 automatic mechanical bed levelling device (https://www.antclabs.com/bltouch).  
@@ -97,13 +101,19 @@ All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D 
 Retains two rare earth magnets in its upper cavity. The mount holds the magnets captive when the closed end of the cavity is facing away from the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount.png)
 
+Return to [page index](#page-index).
+
 ### Fixed photodiode mount  
 Retains the eight photodiodes and is sandwiched between two 2mm thick block lid plates. The emission filter gel is mounted between the photodiodes and the lower block lid plate.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_photodiode_mount.png)  
 
+Return to [page index](#page-index).
+
 ### Fixed LED mount  
 Retains the eight LEDs and clamps the excitation filter gel to the block.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Fixed_8-LED_mount.png)  
+
+Return to [page index](#page-index).
 
 ## Assembly
 
@@ -111,9 +121,13 @@ Retains the eight LEDs and clamps the excitation filter gel to the block.
 Two wire wound resistors are fitted into the cavity underneath the heating block and are secured in place using the two resistor retaining plates. The magnet mount is first attached to the block stand with two M5 bolts and nuts. The block is then mounted to the block stand by passing M3 bolts through the gaps in the magnet mounts. 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Magnet_mount_anno.jpg)
 
+Return to [page index](#page-index).
+
 ### Excitation system
 The eight excitation LEDs are pressed into the fixed LED mount. The excitation gel is sandwiched between the block and the fixed LED mount which is secured in place using M3 bolts, nuts, standoffs and two rear LED mount retainers.
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Block_anno.jpg)
+
+Return to [page index](#page-index).
 
 ### Emission system
 The eight photodiodes are fitted into the fixed photodiode mount (with light sensitive surface facing downward through holes) and individually secured with a small piece of sticky tape. The emission filter gels are then overlaid on the light sensitive side of the photodiode mount and secured with the metal lids on both sides using M3 bolts and nuts. Once both block stands are secured to the block, the entire assembly is mounted on a sheet of acrylic.
@@ -130,11 +144,17 @@ All 3D printed parts were printed using black 1.75 PLA filament on a Creality3D 
 ### Left screen mount  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Left_screen_mount.png)  
 
+Return to [page index](#page-index).
+
 ### Right screen mount  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Right_Screen_mount.png)  
 
+Return to [page index](#page-index).
+
 ### Screen face plate  
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Screen_face_plate.png)  
+
+Return to [page index](#page-index).
 
 ## Block mounting partition
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Partition.png)  
