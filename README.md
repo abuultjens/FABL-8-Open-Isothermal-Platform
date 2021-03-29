@@ -225,6 +225,15 @@ PID control
 * SCP.sh
 SCP outfiles to remote server and moves run files to local 'SAVE' dir. You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
   
+* SCP_PID.CSV.sh
+You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
+
+* SCP_RUN_DATA.sh
+You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
+  
+* SCP_UPC_CODES.sh
+You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
+  
 * KILL_PID.sh  
 gets PID process ID and kills it  
 
