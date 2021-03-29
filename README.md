@@ -55,8 +55,6 @@ Sequentially illuminates LEDs in an eight LED array using an 8-channel analogue 
 * __Emission__  
 Sequentially reads clock pulses from light-to-frequency photodiodes in an eight photodiode array using an 8-channel analogue demultiplexer.    
 
-<p align="right">Return to [page index](#page-index).</p>
-
 Return to [page index](#page-index).
 
 
