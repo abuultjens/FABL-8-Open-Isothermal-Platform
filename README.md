@@ -59,7 +59,7 @@ Return to [page index](#page-index).
 
 
 ### Circuit schematic  
-![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic.png)
+![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic_v2.png)
 
 Return to [page index](#page-index).
 
