@@ -198,55 +198,55 @@ Return to [page index](#page-index).
 
 ## Script index   
    
-* startup-script.sh  
+* `startup-script.sh`  
 script that runs on startup and initiates the app and ....
 
-* script-replacer.sh  
+* `script-replacer.sh`  
 this replaces RBP script with newer script(s) from a dir on the MDU server  
 
-* UPDATE-CONFIRM.sh  
+* `UPDATE-CONFIRM.sh`  
 uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
 
-* python3 APP_v2.py  
+* `python3 APP_v2.py`  
 this is the main app. This script runs:
 MAC_ADDRESS.sh 
 This script makes:
 APP_v2_log.csv 
 
-* MAC_ADDRESS.sh  
+* `MAC_ADDRESS.sh`  
 makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
 
-* PID_SAFE.sh  
+* `PID_SAFE.sh`  
 get the set temp and runs PID_SAFE.py  
 
-* PID_SAFE.py  
+* `PID_SAFE.py`  
 PID control 
 
-* SCP.sh
+* `SCP.sh`
 SCP outfiles to remote server and moves run files to local 'SAVE' dir. You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
   
-* SCP_PID.CSV.sh
+* `SCP_PID.CSV.sh`
 You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
 
-* SCP_RUN_DATA.sh
+* `SCP_RUN_DATA.sh`
 You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
   
-* SCP_UPC_CODES.sh
+* `SCP_UPC_CODES.sh`
 You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
   
-* KILL_PID.sh  
+* `KILL_PID.sh`  
 gets PID process ID and kills it  
 
-* RESTART.sh  
+* `RESTART.sh`  
 kills python, sets all GPIO off and restarts app  
 
-* blink.py  
+* `blink.py`  
 sets GPIO pins off  
 
-* KILL_PYTHON.sh  
+* `KILL_PYTHON.sh`  
 kills python and sets all GPIO off  
 
-* stepper_SW_colour-sensor_MICROSTEP_CAL.py  
+* `stepper_SW_colour-sensor_MICROSTEP_CAL.py`  
 steps through all eight wells and read photodiodes  
 
 Return to [page index](#page-index).
