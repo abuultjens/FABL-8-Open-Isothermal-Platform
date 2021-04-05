@@ -65,7 +65,7 @@ Note that the thin and thick lines indicate signal wires (current rating: 0.6A) 
 Return to [page index](#page-index).
 
 ### Power source
-We used 19V 6.3A laptop power supply packs as power sources for the FABLE-8 units. Alternatively, a 12V power pack with at least 10A output (120W) would suffice. Using a different power supply may need cause a different heating effect and the PID parameters may need to be slightly adjusted. For more detail see the PID_SAFE.py script in the [script index](#script-index).
+We used 19V 6.3A laptop power supply packs as power sources for the FABLE-8 units. Alternatively, a 12V power pack with at least 10A output (120W) would suffice. Using a power supply with a different wattage may cause a different heating profile and the PID parameters may need to be slightly adjusted. For more detail see the PID_SAFE.py script in the [script index](#script-index).
 
 ### Setting up the Raspberry pi  
 
