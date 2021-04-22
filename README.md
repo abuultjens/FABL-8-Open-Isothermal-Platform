@@ -221,7 +221,7 @@ Return to [page index](#page-index).
    
 ### Main scripts   
    
-* `python3 APP_v2.py`  
+* `APP_v2.py`  
 is the main app with interactive menu and live plotting windows
 
 * `PID_SAFE.py`  
