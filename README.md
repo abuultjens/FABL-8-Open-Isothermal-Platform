@@ -59,7 +59,7 @@ Return to [page index](#page-index).
 
 
 ### Circuit schematic  
-Note that the thin and thick lines indicate signal wires (current rating: 0.6A) and high current wires (current rating: 7.5A), respectively. 
+Note that the thin and thick lines indicate signal wires (current rating: 0.6A) and high current wires (current rating: 7.5A). 
 ![Image description](https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/FABL-8_schematic_v2.png)
 
 Return to [page index](#page-index).
