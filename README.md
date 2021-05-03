@@ -9,7 +9,8 @@ The FABL-8 is an open source, low cost and scalable diagnostic platform for the 
 ## Publication
 A publication detailing the FABL-8 and its diagnostic performance against commercial offerings is in progress.
 
-[![FABL-8](http://img.youtube.com/vi/EUoK5VIlDco/0.jpg)](http://www.youtube.com/watch?v=EUoK5VIlDco "FABL-8")
+## Video of instrument in operation
+[![FABL-8](http://img.youtube.com/vi/6KBeOv0ah2U/0.jpg)](http://www.youtube.com/watch?v=6KBeOv0ah2U "FABL-8")
 
 ## Page index
 <img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%201.png">
