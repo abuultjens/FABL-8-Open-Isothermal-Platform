@@ -216,7 +216,7 @@ Return to [page index](#page-index).
 | --------------- | --------------- | --------------- |
 | Craftright 465 x 360 x 175mm Safe Case | 1 | https://www.bunnings.com.au/craftright-465-x-360-x-175mm-safe-case_p5810252 |
 | Black acrylic sheet 6mm thick | 1 | https://www.amazon.com.au/SimbaLux-Acrylic-Plexiglass-Protective-Projects/dp/B07TVKHLP6 |
-| IP67 Rated USB Socket - Type A | 1 | https://www.jaycar.com.au/ip67-rated-usb-socket-type-a/p/PS0782 |
+| IP67 Rated USB Socket - Type A | 1 | https://au.element14.com/multicomp/2ub3001-w05100/sealed-usb-2-0-type-a-receptacle/dp/1850634?gclid=CjwKCAjwhMmEBhBwEiwAXwFoESLVzLMuN3pfnoANTyTBRr4Z1iZKWt3l-58cMxBsgCOkalS_BBS-NxoCSrUQAvD_BwE&mckv=_dc%7Cpcrid%7C501152839127%7Cpkw%7C%7Cpmt%7C%7Cslid%7C%7Cproduct%7C1850634%7Cpgrid%7C123988903131%7Cptaid%7Cpla-293946777986%7C&CMP=KNC-GAU-GEN-SMART-SHOPPING |
 
 Return to [page index](#page-index).
 
