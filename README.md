@@ -182,7 +182,7 @@ Return to [page index](#page-index).
 | --------------- | --------------- | --------------- |
 | 12-stage Binary Counter CMOS IC 4040 | 1 | https://www.jaycar.com.au/4040-12-stage-binary-counter-cmos-ic/p/ZC4040 |
 | 5M bolts and nuts | 1 | https://www.bunnings.com.au/zenith-m5-x-25mm-316-stainless-steel-round-head-bolt-and-nut-5-pack_p2310748 |
-| Arduino Compatible 24V 5A MOS Driver Module | 3 | https://www.jaycar.com.au/arduino-compatible-24v-5a-mos-driver-module/p/XC4488 |
+| Arduino Compatible 24V 5A MOS Driver Module | 3 | https://www.auselectronicsdirect.com.au/mos-driver-module-24v-5a-for-arduino-projects?gclid=CjwKCAjwhMmEBhBwEiwAXwFoEZTbsvb9xTaKgrjNCXzyofxZDha0V4Hk5cDGEyZgNib_1PJhzH9eExoCymcQAvD_BwE |
 | Arduino Compatible 5V Relay Board | 1 | https://www.jaycar.com.au/arduino-compatible-5v-relay-board/p/XC4419 |
 | Arduino Compatible DC Voltage Regulator 2A | 4 | https://www.auselectronicsdirect.com.au/dc-dc-voltage-step-down-converter-module-for-ardui?gclid=Cj0KCQjw3duCBhCAARIsAJeFyPXY0H_Z5v1TH_utRIlQ2Qi64cqLh3KEt3j74XoJ1cvceE0Bd_h9uLgaAl81EALw_wcB |
 | Blue 5mm CREE LED 23500mcd Round Clear | 8 | https://www.jaycar.com.au/blue-5mm-cree-led-23500mcd-round-clear/p/ZD0291 |
@@ -203,7 +203,7 @@ Return to [page index](#page-index).
 | Photodiodes - TSL235R | 8 | https://www.sparkfun.com/products/9768 |
 | Phototransistor Optocoupler 4N25/4N28  | 1 | https://www.jaycar.com.au/4n25-4n28-phototransistor-optocoupler/p/ZD1928 |
 | Rare Earth Magnets diameter=10mm height=3mm (pack of four) | 1 | https://www.jaycar.com.au/rare-earth-magnet-small-pk-4/p/LM1622 |
-| Raspberry Pi 3 Model B+ | 1 | https://www.jaycar.com.au/raspberry-pi-3b-single-board-computer/p/XC9001 |
+| Raspberry Pi 3 Model B+ | 1 | https://au.element14.com/raspberry-pi/raspberry-modb-512m/raspberry-pi-model-b-board/dp/2456986?gclid=CjwKCAjwhMmEBhBwEiwAXwFoEYR2Mwg4QFkwfHrBXNEI6yvINoFfle3anPMrRLCDC8tZpNkloh1qeBoCo4cQAvD_BwE&mckv=_dc%7Cpcrid%7C501152839127%7Cpkw%7C%7Cpmt%7C%7Cslid%7C%7Cproduct%7C2456986%7Cpgrid%7C123988903131%7Cptaid%7Cpla-293946777986%7C&CMP=KNC-GAU-GEN-SMART-SHOPPING |
 | Resistor 56 ohm 1/4 Watt | 2 | https://www.jaycar.com.au/56-ohm-1-watt-carbon-film-resistors-pack-of-2/p/RR2544 |
 | Single 8-channel Analogue Multiplexer CMOS IC 4051 | 2 | https://www.jaycar.com.au/4051-single-8-channel-analogue-multiplexer-cmos-ic/p/ZC4051 |
 | Thermal breaker (80oc) | 1 | https://sinolec.co.uk/en/thermal-cut-out-bimetal-switches/1211447-thermal-cut-out-80c-nc.html |
