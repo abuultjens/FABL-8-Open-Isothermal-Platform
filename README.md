@@ -239,7 +239,7 @@ steps through all eight wells and reads photodiodes
 ### Helper scripts
    
 * `startup-script.sh`  
-script that runs on startup and initiates the app and ....
+script that runs on startup and initiates the app
 
 * `script-replacer.sh`  
 this replaces RBP script with newer script(s) from a dir on the MDU server  
@@ -254,7 +254,7 @@ Obtains the Raspberry Pi MAC address and compares it to know addresses to determ
 Fetches the set temp and runs PID_SAFE.py  
 
 * `SCP.sh`
-SCP outfiles to remote server and moves run files to local 'SAVE' dir. You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
+SCP outfiles to remote servers and moves run files to local 'SAVE' dir. You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
   
 * `SCP_PID.CSV.sh`
 You will need to insert your own remote server login details in this script. If you don't want to use any remote server(s) then comment out the lines with `sshpass`
