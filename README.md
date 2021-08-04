@@ -248,7 +248,7 @@ this replaces RBP script with newer script(s) from a dir on the MDU server
 uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
 
 * `MAC_ADDRESS.sh`  
-makes a file callled NEW_MAC_ADDRESS.csv or OLD_MAC_ADDRESS.csv  
+Obtains the Raspberry Pi MAC address and compares it to know addresses to determine which unit the script is running on. This is useful for any specifying any unit/hardware specific parameters when using common scripts. Once the specific hardware has been identified via the MAC address, it make a signal file.
 
 * `PID_SAFE.sh`  
 Fetches the set temp and runs PID_SAFE.py  
