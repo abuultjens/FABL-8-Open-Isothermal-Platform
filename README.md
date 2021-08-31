@@ -77,9 +77,9 @@ We used 19V 6.3A laptop power supply packs as power sources for the FABLE-8 unit
 
 1. Use SDFormatter (https://www.sdcard.org/downloads/) to perform a quick format of a microSD card.  
 
-2. Download the preconfigured image from this page named 'FABL-8_29-03-21.img.gz'.
+2. Download the preconfigured image from this page https://cloudstor.aarnet.edu.au/plus/s/Bz4BOmHrPozpWsq.
   
-3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'NEW-UNIT_19-03-21.img.gz' image to microSD card.  
+3. Use Raspberry Pi Imager (https://www.raspberrypi.org/software/) to write 'FABL-8_img.img.gz' image to a microSD card.  
 
 Details of all scripts packaged into the image file can be found in the [Script index](#script-index).
 
