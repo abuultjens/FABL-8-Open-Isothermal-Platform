@@ -170,7 +170,9 @@ Return to [page index](#page-index).
 
 # Instructions of use  
 
-* An Initial warmup period occurs upon powerup to stably raise the block temperature to 65oC. 
+* An Initial warmup period occurs upon powerup to stably raise the block temperature to 65oC (approximately 10-15 minutes). 
+
+* Instructions for the preparation of the LAMP reactions can be found here: dx.doi.org/10.17504/protocols.io.bqd4ms8w
 
 * Once at operation temperature a reaction can be run by preparing LAMP reagents and template in an OptiGene strip, cutting off the plastic wings on the terminal ends of the strip, removing the magnetic block lid, inserting the strip and replacing the magnetic lid. Specific care must be taken to ensure that all tube lids are firmly pressed closed prior to replacing the block lid.
 
