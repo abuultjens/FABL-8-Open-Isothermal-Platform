@@ -244,7 +244,7 @@ steps through all eight wells and reads photodiodes
 script that runs on startup and initiates the app
 
 * `script-replacer.sh`  
-this replaces RBP script with newer script(s) from a dir on the MDU server  
+this replaces RBP script with newer script(s) from a dir on a remote server  
 
 * `UPDATE-CONFIRM.sh`  
 uploads a log file confirming if the updated script(s) have been uploaded to the RBP  
