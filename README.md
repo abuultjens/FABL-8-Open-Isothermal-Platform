@@ -13,7 +13,7 @@ A publication detailing the FABL-8 and its diagnostic performance against commer
 [![FABL-8](http://img.youtube.com/vi/c5SjP3wax4s/0.jpg)](https://youtu.be/c5SjP3wax4s "FABL-8 isothermal diagnostic platform")
 
 ## File download link
-https://cloudstor.aarnet.edu.au/plus/s/Bz4BOmHrPozpWsq
+https://unimelbcloud-my.sharepoint.com/:f:/r/personal/buultjensa_unimelb_edu_au/Documents/FABL-8_files?csf=1&web=1&e=TzOEO4
 
 ## Page index
 <img align="right" src="https://github.com/abuultjens/FABL-8-Open-Isothermal-Platform/blob/main/Picture%201.png">
