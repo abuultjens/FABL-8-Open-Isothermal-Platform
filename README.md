@@ -7,7 +7,8 @@ Publicly accessible details on how to build and operate a FABL-8 isothermal diag
 The FABL-8 is an open source, low cost and scalable diagnostic platform for the running and monitoring of loop mediated isothermal amplification (LAMP) reactions. 
 
 ## Publication
-A publication detailing the FABL-8 and its diagnostic performance against commercial offerings is in progress.
+A research article detailing the FABL-8 and its diagnostic performance against commercial offerings has been published in ACS Biomaterials Science & Engineering (DOI: 10.1021/acsbiomaterials.1c01105):
+https://pubs.acs.org/doi/10.1021/acsbiomaterials.1c01105
 
 ## Video of instrument in operation
 [![FABL-8](http://img.youtube.com/vi/c5SjP3wax4s/0.jpg)](https://youtu.be/c5SjP3wax4s "FABL-8 isothermal diagnostic platform")
