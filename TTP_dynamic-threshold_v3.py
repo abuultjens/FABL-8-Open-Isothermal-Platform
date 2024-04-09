@@ -6,7 +6,10 @@ import sys
 
 # Function to load and preprocess data with dynamic thresholding and trailing window smoothing
 def load_data_updated(file_path):
+
+    # loading fluorescence data from a CSV
     df = pd.read_csv(file_path, engine='python')
+    #drops rows with all NaN values to clean the data
     df.dropna(how="all", inplace=True)  # Drop rows with all NaN values
     
     # Fix the timestamp format inconsistency
@@ -18,7 +21,7 @@ def load_data_updated(file_path):
     # Invert the optical read values
     df["Inverted Optical Read"] = df["Optical Read"].max() - df["Optical Read"]
     
-    # Smooth the Inverted Optical Read values using a rolling window (trailing window)
+    # Smooth the inverted optical read values using a rolling window (trailing window) to reduce noise and make the trend more discernible
     window_size = 3  # this can be adjusted as needed
     df["Smoothed Inverted Optical Read"] = df["Inverted Optical Read"].rolling(window=window_size).mean().fillna(df["Inverted Optical Read"])
     
@@ -41,7 +44,7 @@ def parse_timestamp(timestamp):
 initial_cycles = 20  # Initial cycles to compute baseline 20
 multiplier = 3  # Multiplier for standard deviation to set threshold 3
 
-# Load and process the data using the modified function with trailing window
+# Load and process the data using the function
 file_path = sys.argv[1]
 df_trailing, initial_timestamp_trailing = load_data_updated(file_path)
 
